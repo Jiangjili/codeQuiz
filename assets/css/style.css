@@ -1,0 +1,87 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+.top div {
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between;
+}
+.scores {
+    padding: 10px 0 0 20px;
+    color: pink;
+}
+
+.time {
+    padding: 10px 20px 0 0;
+}
+
+.main {
+    margin: 50px;
+}
+
+.opening {
+  text-align: center;
+}
+
+#title {
+    font-size: 50px;
+}
+
+#instructions {
+    font-size: 20px;
+}
+
+button {
+    background-color: darkolivegreen;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+#options:hover {
+    background-color: pink;
+}
+.quiz {
+    margin: auto;
+    width: 600px;
+
+}
+
+.questions {
+    padding: 20px;
+}
+
+#questionOne {
+    padding: 10px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#options {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.footer {
+    margin: auto;
+    width: 600px;
+    border-top: 1px solid grey;
+}
+#wrong {
+    margin: auto;
+    width: 600px;
+    font-size: 15px;
+    font-style: italic;
+    font-family:Arial, Helvetica, sans-serif;
+    color: grey; 
+}
+
+#correct {
+    margin: auto;
+    width: 600px;
+    font-size: 15px;
+    font-style: italic;
+    font-family:Arial, Helvetica, sans-serif;
+    color: grey; 
+}
